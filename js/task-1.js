@@ -3,7 +3,7 @@ let total = 0;
 for(let key in products){
   total += products[key];
 }
-return totalQuantity <= containerSize;
+return total <= containerSize;
 };
   
  
